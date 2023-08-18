@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/static/css/main.46bfd158.css",
+    "main.js": "/static/js/main.c0c0f27c.js",
+    "static/js/787.7b7a4762.chunk.js": "/static/js/787.7b7a4762.chunk.js",
+    "static/media/emric2.JPG": "/static/media/emric2.c25c10fb138480486adc.JPG",
+    "static/media/ArrowBarDown.svg": "/static/media/ArrowBarDown.913f9861da557d84efa7f8f0078b11e4.svg",
+    "index.html": "/index.html",
+    "main.46bfd158.css.map": "/static/css/main.46bfd158.css.map",
+    "main.c0c0f27c.js.map": "/static/js/main.c0c0f27c.js.map",
+    "787.7b7a4762.chunk.js.map": "/static/js/787.7b7a4762.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.46bfd158.css",
+    "static/js/main.c0c0f27c.js"
+  ]
+}

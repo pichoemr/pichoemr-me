@@ -4,7 +4,6 @@ import './assets/styles/index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Menu from './components/menu';
-import Rectangle from './assets/images/Rectangle 1.svg'; // Tell webpack this JS file uses this image
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -12,8 +11,6 @@ root.render(
   <React.StrictMode>
     <Menu />
     <App />
-    <div class="corner">
-    </div>
   </React.StrictMode>
 );
 
