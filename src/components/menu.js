@@ -1,16 +1,15 @@
 import '../assets/styles/Menu.css';
+import PixiCode from '../assets/images/pixicode.svg';
+
 
 function Menu() {
     return (
         <div className="Menu">
-            <h2>PixiCode</h2>
+            <img src={PixiCode} alt='pixicode'></img>
             <div>
-                <ul>
-                    <li>Home</li>
-                    <li>Study</li>
-                    <li>Experiences</li>
-                    <li>Skills</li>
-                </ul>
+                <a href='/'>Home</a>
+                <a href='/'>Experiences</a>
+                <a href='/'>Skills</a>
                 <button>Contact</button>
             </div>
         </div>

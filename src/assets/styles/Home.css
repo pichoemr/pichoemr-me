@@ -1,0 +1,249 @@
+.Home {
+    background-color: #1D5D9B;
+    display: flex;
+    flex-direction: column;
+    /* height: 100%; */
+}
+
+.Home p {
+    color: #F4D160;
+    font-family: Karla;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+#Emric {
+    margin-left: calc(calc(100vw - 200px) / 2);
+    margin-top: 100px;
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    z-index: 0;
+    border-radius: 250px;
+}
+
+#Emric img {
+    height: 420px;
+    left: -195px;
+}
+
+.puce {
+    display: none;
+}
+
+.Column {
+    display: flex;
+    flex-direction: column;
+}
+
+#Arrow {
+    margin-left: 50px;
+}
+
+.title {
+    margin-top: 330px;
+    margin-left: 6%;
+}
+
+.title h2 {
+    font-size: 50px;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+#firstName {
+    color: #F4D160;
+    margin: 0;
+    margin-top: 5%;
+}
+
+#LastName {
+    color: #75C2F6;
+    margin: 0;
+}
+
+h3 {
+    font-size: 24px;
+    color: #F4D160;
+}
+
+#ArrowContainer {
+    display: flex;
+    flex-direction: row;
+}
+
+#ArrowContainer p {
+    width: 250px;
+    margin-top: 20%;
+}
+
+@media (min-width: 481px) {
+
+    .Home {
+        /* height: 113vh; */
+    }
+
+    #Emric {
+        width: 300px;
+        height: 300px;
+        margin-left: calc(calc(100vw - 300px) / 2);
+    }
+
+    #Emric img {
+        height: 520px;
+        left: -210px;
+    }
+
+    .title {
+        margin-top: 52vh;
+        margin-left: 12%;
+    }
+
+    .title h2 {
+        font-size: 70px;
+    }
+
+    h3 {
+        font-size: 26px;
+    }
+
+    #ArrowContainer p {
+        margin-top: 16%;
+    }
+}
+
+@media (min-width: 769px) {
+
+    .Home {
+        /* height: 100%; */
+    }
+
+    #Emric {
+        width: 350px;
+        height: 350px;
+        margin-left: calc(calc(100vw - 350px) / 2);
+    }
+
+    #Emric img {
+        height: 570px;
+        left: -220px;
+    }
+
+    .title {
+        margin-top: 48vh;
+    }
+
+    .title h2 {
+        font-size: 100px;
+    }
+
+    h3 {
+        margin-left: 6px;
+        font-size: 30px;
+    }
+
+    #ArrowContainer {
+        margin-left: 10%;
+    }
+
+    #ArrowContainer p {
+        margin-top: 12%;
+    }
+}
+
+@media (min-width: 800px) {
+    .Home {
+        height: 100vh;
+    }
+
+    #ArrowContainer p {
+        margin-top: 8%;
+    }
+
+    #Emric {
+        margin-top: 130px;
+    }
+
+    .title {
+        margin-top: 40vh;
+    }
+
+}
+
+@media (min-width: 1201px) {
+    .Home {
+        flex-direction: row;
+        height: 94vh;
+        margin-top: 6vh;
+    }
+
+    .title {
+        margin-top: 12%;
+    }
+
+
+    .title h2 {
+        font-size: 128px;
+    }
+
+    #Emric {
+        position: 'relative';
+        margin-left: 60%;
+        margin-top: calc(calc(96vh - 450px) / 2);
+        width: 450px;
+        height: 450px;
+    }
+
+    #Emric img {
+        height: 670px;
+        left: -260px;
+    }
+
+    .Home .puce {
+        height: 15%;
+        margin-left: 50px;
+        margin-right: 50px;
+        margin-top: 20%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+    }
+
+    #ArrowContainer p {
+        margin-top: 12%;
+    }
+
+}
+
+@media (min-width: 1900px) {
+    #Emric {
+        position: 'relative';
+        margin-top: calc(calc(96vh - 550px) / 2);
+        width: 550px;
+        height: 550px;
+        border-radius: 350px;
+    }
+
+    #Emric img {
+        height: 770px;
+        left: -300px;
+    }
+
+
+    .title h2 {
+        font-size: 180px;
+    }
+
+    h3 {
+        font-size: 50px;
+    }
+
+    #ArrowContainer p {
+        margin-top: 8%;
+    }
+
+}
