@@ -15,11 +15,11 @@
 }
 
 .Services>div>button {
-    border: none;
-    background-color: rgba(0, 0, 0, 0.25);
+    border: none !important;
+    background-color: rgba(0, 0, 0, 0.25) !important;
     width: 335px;
     height: 150px;
-    color: #1D5D9B;
+    color: #1D5D9B !important;
     text-align: left;
     margin-left: calc(calc(100vw - 335px) / 2);
     margin-top: 2vh;

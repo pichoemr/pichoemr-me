@@ -20,7 +20,7 @@ function Menu() {
     );
 
     function redirectContact() {
-        window.location.replace(window.location.href + "contact");
+        window.location.href = "contact";
     }
 }
 

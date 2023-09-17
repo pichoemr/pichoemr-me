@@ -1,4 +1,58 @@
 .Contact {
-    height: 100vh;
+    height: 94vh;
+    padding-top: 6vh;
     background-color: #F4D160;
+}
+
+.bm-burger-bars {
+    background-color: #1D5D9B;
+}
+
+.Contact form input {
+    background-color: #262B2F;
+    padding: 9px;
+    color: white;
+    border-radius: 15px;
+    border-color: white;
+    border-style: groove;
+}
+
+.Contact form textarea {
+    background-color: #262B2F;
+    padding: 9px;
+    color: white;
+    border-radius: 15px;
+    border-color: white;
+    border-style: groove;
+}
+
+.Contact form input#submit {
+    font-weight: 700;
+}
+
+.Contact form label {
+    color: #1D5D9B;
+    font-size: 26px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.Contact form {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin-left: 2.5%;
+}
+
+@media (min-width: 800px) {
+    .Contact form {
+        display: flex;
+        flex-direction: column;
+        width: 60%;
+        margin-left: 20%;
+    }
+
+    .Contact form input:nth-of-type(-n+3) {
+        width: 20%;
+    }
 }

@@ -6,7 +6,7 @@ a:hover {
   color: #FBEEAC;
 }
 
-button {
+button:not(#react-burger-menu-btn) {
   cursor: pointer;
   background-color: transparent;
   border: 2px solid #F4D160;

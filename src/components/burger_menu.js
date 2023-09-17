@@ -18,11 +18,14 @@ class BurgerMenu extends React.Component {
                 <Link className="menu-item" to="/skills">Skills</Link>
                 <Link className="menu-item" to="/services">Services</Link>
 
-                <button>Contact</button>
-            </Menu>
+                <button onClick={() => { window.location.href = "contact" }}>Contact</button>
+            </Menu >
         );
-    }
+    };
+
+
 }
+
 
 
 export default BurgerMenu;
