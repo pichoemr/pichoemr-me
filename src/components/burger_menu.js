@@ -1,7 +1,9 @@
 import React from 'react';
 import { slide as Menu } from 'react-burger-menu'
 import '../assets/styles/BurgerMenu.css';
-import PixiCode from '../assets/images/pixicode.svg';
+import PixiCode from '../assets/images/pixicode_yellow.svg';
+import { Link } from "react-router-dom";
+
 
 
 class BurgerMenu extends React.Component {
@@ -10,10 +12,13 @@ class BurgerMenu extends React.Component {
             <Menu right>
                 <img src={PixiCode} alt='pixicode'></img>
 
-                <a id="home" className="menu-item" href='/'>Home</a>
-                <a id="experiences" className="menu-item" href='/'>Experiences</a>
-                <a id="skills" className="menu-item" href='/'>Skills</a>
-                <a id="contact" className="menu-item" href='/'>Contact</a>
+                <Link className="menu-item" to="/">Home</Link>
+                <Link className="menu-item" to="/about-me">About Me</Link>
+                <Link className="menu-item" to="/experiences">Experiences</Link>
+                <Link className="menu-item" to="/skills">Skills</Link>
+                <Link className="menu-item" to="/services">Services</Link>
+
+                <button>Contact</button>
             </Menu>
         );
     }

@@ -1,17 +1,26 @@
 .Presentation {
     background-color: #F4D160;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    min-height: 100vh;
+    padding-top: 6vh;
+}
+
+.bm-burger-bars {
+    background: #1D5D9B;
 }
 
 h1 {
     margin-top: 0;
     color: #1D5D9B;
+    margin-left: 12%;
 }
 
 p {
     color: #1D5D9B;
     width: 75%;
+    font-size: 4vw;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    margin-left: 12.5%;
 }
 
 .Row {
@@ -27,10 +36,43 @@ p {
 .Line {
     width: calc(100vw - 15%);
     margin-left: 7.5%;
+    margin-bottom: 15px
 }
 
 .Vertical {
     margin-left: 12.5%;
     margin-right: 100px;
     margin-bottom: 50px;
+    height: 42vh;
+    display: none;
+}
+
+@media (min-width: 820px) {
+    .Presentation {
+        margin-top: 4vh;
+        min-height: 96vh;
+        padding-top: 20vh;
+    }
+
+    .Vertical {
+        margin-left: 12.5%;
+        margin-right: 100px;
+        margin-bottom: 50px;
+        height: 42vh;
+        display: block;
+    }
+
+    p {
+        margin-left: 0;
+        font-size: 1vw;
+    }
+
+    .Line {
+        margin-bottom: 50px
+    }
+
+    h1 {
+        margin-left: 0;
+    }
+
 }

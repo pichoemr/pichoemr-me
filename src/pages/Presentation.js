@@ -3,9 +3,9 @@ import '../assets/styles/Presentation.css';
 function Presentation() {
     return (
         <div className="Presentation">
-            <div className='Line' style={{ height: 5, background: '#1D5D9B', borderRadius: 4, marginBottom: 50 }} />
+            <div className='Line' style={{ height: 5, background: '#1D5D9B', borderRadius: 4 }} />
             <div className='Row'>
-                <div className='Vertical' style={{ width: 5, height: 400, background: '#1D5D9B', borderRadius: 4 }} />
+                <div className='Vertical' style={{ width: 5, background: '#1D5D9B', borderRadius: 4 }} />
                 <div className='Column'>
                     <h1>Who am I?</h1>
                     <p>

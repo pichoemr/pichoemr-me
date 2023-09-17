@@ -2,21 +2,22 @@
     background-color: #1D5D9B;
     display: flex;
     flex-direction: column;
-    /* height: 100%; */
+    min-height: 100vh;
 }
 
 .Home p {
-    color: #F4D160;
+    color: white;
     font-family: Karla;
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    margin-left: 2vw;
 }
 
 #Emric {
     margin-left: calc(calc(100vw - 200px) / 2);
-    margin-top: 100px;
+    margin-top: 18vh;
     position: absolute;
     width: 200px;
     height: 200px;
@@ -25,12 +26,8 @@
 }
 
 #Emric img {
-    height: 420px;
-    left: -195px;
-}
-
-.puce {
-    display: none;
+    height: 380px;
+    left: -160px;
 }
 
 .Column {
@@ -38,26 +35,35 @@
     flex-direction: column;
 }
 
-#Arrow {
-    margin-left: 50px;
+.AdaptiveFlex {
+    display: flex;
+    flex-direction: column;
 }
 
 .title {
-    margin-top: 330px;
-    margin-left: 6%;
+    margin-top: 18vh;
+    margin-left: 2vw;
 }
 
 .title h2 {
-    font-size: 50px;
+    font-size: 6vh;
     -webkit-user-select: none;
     -ms-user-select: none;
     user-select: none;
 }
 
+.yellowLine {
+    width: 90%;
+    height: 4px;
+    margin-left: 2vw;
+    background-color: #F4D160;
+    border-radius: 10px;
+}
+
 #firstName {
     color: #F4D160;
     margin: 0;
-    margin-top: 5%;
+    margin-right: 1.5%;
 }
 
 #LastName {
@@ -66,25 +72,28 @@
 }
 
 h3 {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 2vh;
     font-size: 24px;
     color: #F4D160;
+
 }
 
-#ArrowContainer {
+h3#freelance {
+    margin-top: 8vh;
+    width: 70%;
+    margin-left: 15%;
+}
+
+.contactRow {
+    width: 100%;
+    justify-content: space-evenly;
     display: flex;
-    flex-direction: row;
 }
 
-#ArrowContainer p {
-    width: 250px;
-    margin-top: 20%;
-}
 
 @media (min-width: 481px) {
-
-    .Home {
-        /* height: 113vh; */
-    }
 
     #Emric {
         width: 300px;
@@ -97,30 +106,13 @@ h3 {
         left: -210px;
     }
 
-    .title {
-        margin-top: 52vh;
-        margin-left: 12%;
-    }
-
-    .title h2 {
-        font-size: 70px;
-    }
-
     h3 {
         font-size: 26px;
     }
 
-    #ArrowContainer p {
-        margin-top: 16%;
-    }
 }
 
 @media (min-width: 769px) {
-
-    .Home {
-        /* height: 100%; */
-    }
-
     #Emric {
         width: 350px;
         height: 350px;
@@ -144,25 +136,9 @@ h3 {
         margin-left: 6px;
         font-size: 30px;
     }
-
-    #ArrowContainer {
-        margin-left: 10%;
-    }
-
-    #ArrowContainer p {
-        margin-top: 12%;
-    }
 }
 
 @media (min-width: 800px) {
-    .Home {
-        height: 100vh;
-    }
-
-    #ArrowContainer p {
-        margin-top: 8%;
-    }
-
     #Emric {
         margin-top: 130px;
     }
@@ -177,51 +153,98 @@ h3 {
     .Home {
         flex-direction: row;
         height: 94vh;
+        min-height: min-content;
         margin-top: 6vh;
+        background: linear-gradient(to right,
+                #1D5D9B 70%,
+                #F4D160 30%);
+
+    }
+
+    h3#freelance {
+        color: #1D5D9B;
+        position: absolute;
+        width: 25vw;
+        right: 5vh;
     }
 
     .title {
-        margin-top: 12%;
+        margin-top: 11vh;
     }
 
-
     .title h2 {
-        font-size: 128px;
+        font-size: 8vh;
+    }
+
+    .yellowLine {
+        width: 37%;
+    }
+
+    p {
+        width: 45%;
+    }
+
+    #welcomeBlock>h3 {
+        width: 45%;
+        text-align: left;
+        margin-left: 2vw;
     }
 
     #Emric {
         position: 'relative';
-        margin-left: 60%;
-        margin-top: calc(calc(96vh - 450px) / 2);
-        width: 450px;
-        height: 450px;
+        margin-left: calc(70% - (calc(350px/2)));
+        margin-top: calc(calc(96vh - 350px) / 2);
+        width: 350px;
+        height: 350px;
     }
 
     #Emric img {
-        height: 670px;
-        left: -260px;
+        height: 574px;
+        left: -222px;
     }
 
-    .Home .puce {
-        height: 15%;
-        margin-left: 50px;
-        margin-right: 50px;
-        margin-top: 20%;
+    .contactRow {
+        width: 30vw;
+        margin-left: 16vw;
+
+    }
+
+    .AdaptiveFlex {
         display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-
+        flex-direction: row;
     }
 
-    #ArrowContainer p {
-        margin-top: 12%;
+    .socialLink {
+        position: absolute;
+        right: 2.5%;
+        width: 25%;
+        display: flex;
+        justify-content: space-evenly;
+        bottom: 5vh;
     }
+
+    .yellowColumn {
+        margin-top: 2vh;
+        width: 3px;
+        height: 32%;
+        background-color: #F4D160;
+        border-radius: 5px;
+        position: absolute;
+    }
+
+    #welcomeBlock {
+        margin-top: 8vh;
+        margin-left: 8vw;
+    }
+
+
 
 }
 
 @media (min-width: 1900px) {
     #Emric {
         position: 'relative';
+        margin-left: calc(70% - (calc(550px/2)));
         margin-top: calc(calc(96vh - 550px) / 2);
         width: 550px;
         height: 550px;
@@ -230,20 +253,79 @@ h3 {
 
     #Emric img {
         height: 770px;
-        left: -300px;
+        left: -260px;
     }
 
+    #firstName {
+        margin-right: 2%;
+    }
+
+    .yellowLine {
+        width: 80%;
+    }
+
+    .title {
+        margin-top: 10vh;
+    }
 
     .title h2 {
-        font-size: 180px;
+        font-size: 6vw;
     }
 
     h3 {
         font-size: 50px;
     }
 
-    #ArrowContainer p {
-        margin-top: 8%;
+    h3#welcome {
+        margin-top: 8vh;
+        width: 70%;
+        margin-left: 15%;
+    }
+
+    .yellowColumn {
+        height: 35%;
+    }
+
+    #welcomeBlock {
+        margin-top: 8vh;
+        width: 25vw;
+        margin-left: 8vw;
+    }
+
+    #welcomeBlock>h3 {
+        margin-left: 2vw;
+        text-align: left;
+        margin-top: 4vh;
+    }
+
+    #welcomeBlock>p {
+        margin-left: 2vw;
+        text-align: left;
+        margin-top: 4vh;
+        font-size: 22px;
+        width: auto;
+    }
+
+    .contactRow {
+        display: flex;
+        margin-top: 2vh;
+        margin-left: 30vw;
+    }
+
+    button {
+        border-radius: 15px;
+        padding: 12px;
+    }
+}
+
+@media (min-width: 2400px) {
+    h3#freelance {
+        width: 20vw;
+        right: 12vh;
+    }
+
+    .yellowColumn {
+        height: 25%;
     }
 
 }
