@@ -1,0 +1,26 @@
+.Experiences {
+    height: 100vh;
+    background-color: #1D5D9B;
+}
+
+.Experiences h2 {
+    padding-top: 20px;
+    margin-top: 0;
+    width: 100%;
+    text-align: center;
+    color: #F4D160;
+}
+
+.Experience {
+    color: #1D5D9B;
+    background-color: #F4D160;
+    width: 90%;
+}
+
+@media (min-width: 1201px) {
+    .Experiences {
+        margin-top: 60px;
+        height: calc(100vh - 60px);
+        background-color: #1D5D9B;
+    }
+}

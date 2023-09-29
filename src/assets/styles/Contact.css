@@ -1,6 +1,6 @@
 .Contact {
-    height: 94vh;
-    padding-top: 6vh;
+    margin-top: 60px;
+    height: calc(100vh - 60px);
     background-color: #F4D160;
 }
 

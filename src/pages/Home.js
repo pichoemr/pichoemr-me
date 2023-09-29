@@ -10,7 +10,7 @@ import '../assets/styles/Home.css';
 function Home() {
     return (
         <div className="Home">
-            <h3 id='freelance'>Developper FullStack Freelance</h3>
+            <h3 id='freelance'>FullStack Freelance Developer</h3>
             <div id="Emric" style={{ background: 'white', overflow: 'hidden' }}>
                 <img style={{ top: 0, position: 'absolute' }} src={Emric} alt="Emric" />
             </div>

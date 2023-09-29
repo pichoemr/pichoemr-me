@@ -6,7 +6,7 @@ a:hover {
   color: #FBEEAC;
 }
 
-button:not(#react-burger-menu-btn) {
+button:not(#react-burger-menu-btn):not(.slick-dots) {
   cursor: pointer;
   background-color: transparent;
   border: 2px solid #F4D160;
