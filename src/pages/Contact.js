@@ -5,6 +5,8 @@ import '../assets/styles/Contact.css';
 function Contact() {
     return (
         <div className="Contact">
+            <h3>You can contact me by email or used the contact form</h3>
+            <p>emric.pichonnier@pixicode.dev</p>
             <form>
                 <label for="email">Email</label>
                 <input type="email" id="email" name="email" placeholder="jonhdoe@email.com" required></input>

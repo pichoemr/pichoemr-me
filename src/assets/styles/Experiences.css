@@ -14,13 +14,65 @@
 .Experience {
     color: #1D5D9B;
     background-color: #F4D160;
-    width: 90%;
+    min-height: 60vh;
+    border-radius: 15px;
+    box-shadow: 0px 4px 10px 1px rgba(0, 0, 0, 0.50);
 }
 
-@media (min-width: 1201px) {
+.Experience h2 {
+    color: #1D5D9B;
+    font-size: 25px;
+}
+
+.Experience h3 {
+    color: #1D5D9B;
+    font-size: 25px;
+}
+
+.Experience img {
+    width: 50%;
+    margin-left: 25%;
+    border-radius: 15px;
+    margin-top: 10px;
+}
+
+.slick-slider {
+    width: 70%;
+    height: 60vh;
+    margin-left: 15%;
+    height: min-content;
+    margin-top: 10vh;
+}
+
+html body div#root div.App div.Experiences div.slick-slider.slick-initialized ul.slick-dots li button {
+    border: none;
+    color: transparent;
+}
+
+@media (min-width: 860px) {
     .Experiences {
         margin-top: 60px;
         height: calc(100vh - 60px);
         background-color: #1D5D9B;
+    }
+
+    .slick-slider {
+        margin-top: 5vh;
+        height: 65vh;
+        /* margin: 0 -27px; */
+    }
+
+    .slick-slide {
+        margin: 0 10px;
+    }
+
+    .Experience {
+        color: #1D5D9B;
+        background-color: #F4D160;
+        height: 40vh;
+        border-radius: 15px;
+        /* padding: 10px; */
+        /* margin-left: 15px; */
+        /* margin-right: 15px; */
     }
 }

@@ -4,6 +4,21 @@
     background-color: #F4D160;
 }
 
+.Contact h3 {
+    color: #1D5D9B;
+    padding-top: 5%;
+}
+
+.Contact p {
+    color: #1D5D9B;
+    width: 100%;
+    text-align: center;
+}
+
+form {
+    padding-top: 2%;
+}
+
 .bm-burger-bars {
     background-color: #1D5D9B;
 }
